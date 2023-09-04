@@ -259,3 +259,10 @@ font-size: 1vw;
 .add {
   margin-top: 30px;
 }
+
+
+@media screen and (max-width: 768px) {
+.facts {
+  display: block;
+}
+}
