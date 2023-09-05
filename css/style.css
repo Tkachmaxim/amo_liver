@@ -5,18 +5,16 @@
 }
 body {
   background: #f5f7fa;
-  padding: 20px;
   font-family: Montserrat;
 }
 .wrapper {
+  width: 100vw;
   background: #ffffff;
-  display: flex;
-
-  max-width: 1200px;
-  margin: 0 auto;
 }
 .title__journal {
-  display: flex;
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
 
 }
 
@@ -24,10 +22,11 @@ body {
 .name_journal {
   font-size: 35px;
   color: blueviolet;
+
 }
 
 .guide_ref {
-  font-size: 35px ;
+  font-size: 25px ;
   font-weight: 600;
   color: brown;
 }
@@ -102,8 +101,9 @@ h1 {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 2000;
-  font-size: 95px;
+  font-size: 15px;
   font-style: normal;
+  width: 100vw;
 }
 .content {
   color: black;
@@ -117,12 +117,7 @@ h1 {
 }
 .main-info {
   background-color: #87cefa;
-
-  margin-bottom: 64px;
-  margin-top: 64px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 80px;
+  padding: 20px;
 }
 
 .projects {
@@ -158,9 +153,9 @@ h1 {
 
 .translate {
   width: 50%;
-  padding: 20px;
+  padding: 10px;
   color: #000000;
-font-size: 1vw;
+font-size: 50%;
 
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -220,8 +215,8 @@ font-size: 1vw;
 
 .project-container {
   margin-bottom: 55px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .profession-title {
   font-size: 18px;
@@ -264,5 +259,7 @@ font-size: 1vw;
 @media screen and (max-width: 768px) {
 .facts {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
