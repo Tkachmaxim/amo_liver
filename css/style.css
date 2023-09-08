@@ -285,7 +285,7 @@ font-size: 15px;
 
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1900px) {
   .fact {
     display: flex;
     justify-content: space-between;
