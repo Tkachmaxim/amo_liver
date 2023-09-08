@@ -157,7 +157,7 @@ h1 {
  
 
 .translate {
-  width: 100%;
+  width: 50%;
   height: 230px;
   padding: 10px;
   color: #000000;
@@ -293,12 +293,12 @@ font-size: 15px;
   }
   
   .screen {
-    font-size: 75px;
+    font-size: 45px;
     padding: 50px;
   }
   
   .translate {
-    font-size: 75px;
+    font-size: 45px;
     height: 1150px;
     padding: 50px;
   }
