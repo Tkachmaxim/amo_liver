@@ -267,25 +267,8 @@ font-size: 15px;
 }
 
 
-@media screen and (min-width: 768px) {
-.fact {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.screen {
-  font-size: 25px;
-}
-
-.translate {
-  font-size: 25px;
-  height: 750px;
-}
-
-}
-
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1300px) {
   .fact {
     display: flex;
     justify-content: space-between;
